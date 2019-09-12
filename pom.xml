@@ -52,4 +52,10 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+<repository>
+<id>maven-test</id>
+<url>http://34.92.249.191:8081/repository/maven-test/</url>
+</repository>
+</distributionManagement>
 </project>
